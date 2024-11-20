@@ -8,7 +8,7 @@ public class Cheers {
 
             for (int i = 0; i < teamName.length(); i++) {
                 char letter = teamName.charAt(i);
-                String prefix = "a";
+                String prefix = "a ";
                 if (specialLetters.indexOf(letter) != -1) {
                         prefix = "an";
                 }
