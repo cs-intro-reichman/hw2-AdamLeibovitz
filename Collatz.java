@@ -9,6 +9,7 @@ public class Collatz {
                 int current = seed;
                 if (seed == 1) {
                     System.out.print("1 ");
+					steps++;
                     current = 4;
                 }
                 while (current != 1) {
